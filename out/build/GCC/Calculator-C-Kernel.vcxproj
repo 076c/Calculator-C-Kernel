@@ -331,7 +331,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\buffer.c" />
     <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\error.c" />
     <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\go.c" />
+    <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\keypress.c" />
     <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\main.c" />
+    <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\stack.c" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

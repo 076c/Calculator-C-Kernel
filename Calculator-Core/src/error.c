@@ -19,4 +19,12 @@ void push_error(const char* error)
 
     buffer_push_buffer(buffer);
     free(buffer);
+
+    /*
+    // Method 2:
+    buffer_push_buffer("\t");
+    buffer_push_buffer(ERROR_PREPROCESS);
+    buffer_push_buffer("\n\n");
+    buffer_push_buffer(error);
+    */
 }

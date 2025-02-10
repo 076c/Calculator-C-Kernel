@@ -1,5 +1,29 @@
 #pragma once
+
+/* C definitions */
+#define MAX_RAM 456
+#define ALLOW_C_FUNCTIONS false
+#ifndef ALLOW_C_FUNCTIONS
 #include <stdio.h>
+#ifdef _WIN32
+#include <windows.h>
+#elif __linux__
+#include <unistd.h>
+#elif __APPLE__
+#include <unistd.h>
+#else
+#include <unistd.h>
+#endif
+#ifndef _WIN32
+#define Sleep(x) (Sleep(x))
+#elif __linux__
+#define Sleep(x) (usleep(x * 1000))
+#elif __APPLE__
+#define Sleep(x) (usleep(x * 1000))
+#else
+#define Sleep(x) (usleep(x * 1000))
+#endif
+#endif
 
 enum Keys {
     KEY_ON, // KEY_ON: On key on the calculator.

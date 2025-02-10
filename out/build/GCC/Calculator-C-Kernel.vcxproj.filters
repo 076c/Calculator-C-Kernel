@@ -10,7 +10,13 @@
     <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\go.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\keypress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\stack.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

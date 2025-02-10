@@ -1,10 +1,41 @@
 #include "buffer.h"
 #include "libs.h"
 
-const char* buffer_buffer = "";
+int strlen(const char* str)
+{
+    int len = 0;
+    while (str[len] != '\0')
+    {
+        len++;
+    }
+    return len;
+}
+
+char* strcat(const char* s1, const char* s2)
+{
+    char* d;
+    while (*s1)
+    {
+        *d = *s1;
+        d++;
+        s1++;
+    }
+
+    while (*s2)
+    {
+        *d = *s2;
+        d++;
+        s2++;
+    }
+
+    *d = '\0';
+    return d;
+}
+
+char* buffer_buffer = "";
 void buffer_push_buffer(const char* string)
 {
-    char* can_alloc = malloc(strlen(string)); /* Allocate string size into memory pool */
+    char* can_alloc = (strlen(string) >= BUFFER_MAX); /* Allocate string size into memory pool */
     if (!can_alloc)
     {
         return; /* Memory overflow */
@@ -19,6 +50,11 @@ void buffer_clear()
 
 const char* buffer_get_buffer()
 {
-    malloc(strlen(buffer_buffer)); /* TODO: useless malloc? */
+    // malloc(strlen(buffer_buffer)); /* TODO: useless malloc? */
     return buffer_buffer;
+}
+
+void buffer_remove_top()
+{
+    buffer_buffer[strlen(buffer_buffer) - 1] = '\0';
 }
