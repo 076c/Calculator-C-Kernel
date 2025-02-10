@@ -1,3 +1,4 @@
+#pragma once
 #define ERROR_DIVIDE_BY_ZERO "Cannot divide by zero."
 #define ERROR_PREPROCESS "[Error]"
 #define ERROR_OVERFLOW "Overflow"

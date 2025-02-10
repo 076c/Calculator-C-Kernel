@@ -16,3 +16,9 @@ void buffer_clear()
 {
     buffer_buffer = "";
 }
+
+const char* buffer_get_buffer()
+{
+    malloc(strlen(buffer_buffer)); /* TODO: useless malloc? */
+    return buffer_buffer;
+}

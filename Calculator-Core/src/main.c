@@ -5,7 +5,9 @@
 
 int main()
 {
-    const char* starting_header = "\tWelcome to @synapsesoftworkllc's\nCalculator kernel.";
-    Sleep(2000); /* wait for 2 seconds to clear buffer */
+    /*const char* starting_header = "\tWelcome to @synapsesoftworkllc's\nCalculator kernel.";
+    Sleep(2000); // wait for 2 seconds to clear buffer */
     buffer_clear();
+    /* Debug print: */
+    printf(buffer_get_buffer());
 }
