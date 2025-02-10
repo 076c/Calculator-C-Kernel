@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\go.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\Calculator-Core\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\i like money\Desktop\Calculator-C-Kernel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F3BA8298-244D-3229-B6B9-6700B5CB983F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

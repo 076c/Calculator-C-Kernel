@@ -1,0 +1,3 @@
+C:/Users/i like money/Desktop/Calculator-C-Kernel/out/build/GCC/CMakeFiles/Calculator-C-Kernel.dir
+C:/Users/i like money/Desktop/Calculator-C-Kernel/out/build/GCC/CMakeFiles/ALL_BUILD.dir
+C:/Users/i like money/Desktop/Calculator-C-Kernel/out/build/GCC/CMakeFiles/ZERO_CHECK.dir

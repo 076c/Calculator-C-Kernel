@@ -1,7 +1,7 @@
 #include "buffer.h"
 #include "libs.h"
 
-buffer_buffer = "";
+const char* buffer_buffer = "";
 void buffer_push_buffer(const char* string)
 {
     char* can_alloc = malloc(strlen(string)); /* Allocate string size into memory pool */
