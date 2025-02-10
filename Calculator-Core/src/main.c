@@ -9,6 +9,4 @@ int main()
     // Sleep(2000); // wait for 2 seconds to clear buffer */
     buffer_push_buffer(starting_header);
     buffer_clear();
-    /* Debug print: */
-    printf(buffer_get_buffer());
 }
