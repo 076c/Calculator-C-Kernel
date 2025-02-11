@@ -43,10 +43,9 @@ const char* key_to_text(int nKey)
 
 const char* get_last_input()
 {
-    malloc(strlen(buffer_get_buffer()));
-    char* last_input = buffer_get_buffer()[strlen(buffer_get_buffer())];
+    char last_input = buffer_get_buffer()[strlen(buffer_get_buffer())];
 
-    return last_input;
+    return &last_input;
 }
 
 void virtual_input_key(int nKey)

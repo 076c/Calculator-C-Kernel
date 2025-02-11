@@ -32,14 +32,14 @@ char* strcat(const char* s1, const char* s2)
     return d;
 }
 
-char* buffer_buffer = "";
+static char* buffer_buffer = "";
 void buffer_push_buffer(const char* string)
 {
-    char* can_alloc = (strlen(string) >= BUFFER_MAX); /* Allocate string size into memory pool */
-    if (!can_alloc)
-    {
-        return; /* Memory overflow */
-    }
+    // char* can_alloc = strlen(string) >= BUFFER_MAX;
+    // if (!can_alloc)
+    // {
+    //     return; /* Memory overflow */
+    // }
     buffer_buffer = strcat(buffer_buffer, string); /* TODO: we can just use normal string concatenation no? */
 }
 

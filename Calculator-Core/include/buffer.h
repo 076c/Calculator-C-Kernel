@@ -7,7 +7,7 @@
 // you might have to change some stuff
 // and include libraries.
 
-char* buffer_buffer;
+static char* buffer_buffer;
 void buffer_push_buffer(const char* string);
 void buffer_clear();
 const char* buffer_get_buffer();

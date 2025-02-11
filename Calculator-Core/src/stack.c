@@ -23,3 +23,11 @@ int set_top(int value)
 {
     stack[get_top_index()] = value;
 }
+
+void stack_clear()
+{
+    for (int i = 0; i < get_top_index(); i++)
+    {
+        stack[i] = 0;
+    }
+}

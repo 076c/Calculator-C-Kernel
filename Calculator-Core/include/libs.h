@@ -14,7 +14,7 @@
 #else
 #include <unistd.h>
 #endif
-#ifndef _WIN32
+#ifdef _WIN32
 #define Sleep(x) (Sleep(x))
 #elif __linux__
 #define Sleep(x) (usleep(x * 1000))
