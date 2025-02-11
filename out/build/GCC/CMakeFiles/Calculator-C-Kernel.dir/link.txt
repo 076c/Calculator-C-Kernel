@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Calculator-C-Kernel.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\Calculator-C-Kernel.dir/objects.a @CMakeFiles\Calculator-C-Kernel.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Calculator-C-Kernel.dir/objects.a -Wl,--no-whole-archive -o Calculator-C-Kernel.exe -Wl,--out-implib,libCalculator-C-Kernel.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Calculator-C-Kernel.dir\linkLibs.rsp
