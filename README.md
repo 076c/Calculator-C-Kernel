@@ -18,6 +18,7 @@ It is not recommended though as this code is designed to run on a C framework an
 - Add memory checks in calculations to prevent calculator from overflowing (crashing).
 - Add support for most calculators using pragma.
 - Add support for multiple functions that are also present in normal calculators.
+- Remove all C functions.
 
 # How to build
 To build this, simply CD into the main directory (Calculator-C-Kernel) and run the following (this requires CMake to be installed):
