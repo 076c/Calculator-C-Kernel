@@ -6,6 +6,9 @@ A calculator (kernel?) coded in C (what most calculators support). It includes t
 
 To make this software compatible with your calculator, you have to include the libraries needed by the calculator and replace some functions within this code appropriate to your calculator.
 
+NOTE: this only works on high-tech calculators. Most calculators don't have full C support since most of them are coded in Assembly or Binary.
+NOTE: to import this kernel, you have to compile this in the format that your calculator uses (check sources, et al.). Most of them are in Linux-format.
+
 # How to emulate (WIP)
 
 # Can i port this to C++?
